@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,48 @@
     <title>Craftnce</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- header section start -->
-    <header class="">
-        <div class="px-14  flex sm:justify-between sm:items-center flex-col sm:flex-row py-4 justify-center">
-            <div class="brand w-40 m-auto sm:m-0"><img src="img/craftnce.png" alt="" class="w-full"></div>
-            <nav class="m-auto sm:m-0">
-                <ul class="flex ">
-                    <li><a href="#" class="px-3 py-4 hover:text-sky-400 text-sm transition duration-300 text-blue-400" >Home</a></li>
-                    <li><a href="#" class="px-3 py-4 hover:text-sky-400 text-sm transition duration-300" >About</a></li>
-                    <li><a href="#" class="px-3 py-4 hover:text-sky-400 text-sm transition duration-300" >Get in touch</a></li>
-                    <li><a href="#" class="px-3 py-4 hover:text-sky-400 text-sm transition duration-300" >Privicy policy</a></li>
-                    <li><a href="#" class="px-3 py-4 hover:text-sky-400 text-sm transition duration-300" >Blog</a></li>
-                    <li><a href="#" class="px-3 py-1 hover:text-sky-400  transition duration-300 bg-sky-400 text-sm text-white rounded-full" >Contuct Us</a></li>
-                </ul>
-            </nav>
+    <header class="bg-gray-10 0 ">
+        <div class="flex justify-between items-center px-14 ">
+            <!-- logo -->
+            <div class="w-48 py-4 ">
+                <img class="" w-full src="img/craftnce.png" alt="">
+            </div>
+            <!-- log -->
+
+            <!-- desktop manu -->
+            <div class="hidden md:block">
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800">Home</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800">About Us</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800">Get in touch</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800">Privacy policy</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800">Blog</a>
+            </div>
+            <!-- desktop manu -->
+
+            <!-- hambargar icon -->
+            <button class="block md:hidden mobile-menu-button " id="x">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <!-- hambargar icon -->
+
         </div>
+
+        <!-- mobile manu -->
+        <div class="px-4 mobile_manu" id="y">
+            <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800 block border-b-2">Home</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800 block border-b-2">About Us</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800 block border-b-2">Get in touch</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800 block border-b-2">Privacy policy</a>
+                <a href="#" class="px-2 py-3 font-semibold text-gray-600 hover:text-gray-800 block ">Blog</a>
+        </div>
+        <!-- mobile manu -->
+
     </header>
     <!-- header section end -->
 
@@ -31,15 +58,19 @@
         <div class="col-span-1 flex items-center order-2 sm:order-1">
             <div class="">
                 <p class="font-semibold text-blue-400 text-center sm:text-left">DIGITAL AGENCY</p>
-                <h1 class="font-extrabold md:text-6xl py-2 sm:py-4 md:py-6 text-2xl text-center sm:text-left">DIGITAL SERVICE AGENCY</h1>
+                <h1 class="font-extrabold md:text-6xl py-2 sm:py-4 md:py-6 text-2xl text-center sm:text-left">DIGITAL
+                    SERVICE AGENCY</h1>
                 <div class="flex w-full justify-center sm:justify-start">
                     <button class="font-text-small px-3 py-1 bg-sky-400 rounded-full text-white mx-1">Get start</button>
-                    <a class="font-text-small px-3 py-1 text-sky-600 border-sky-500 border-2 rounded-full bg-white mx-1 hover:text-white hover:bg-sky-600 transition duration-300">Get in-started</a>
+                    <a
+                        class="font-text-small px-3 py-1 text-sky-600 border-sky-500 border-2 rounded-full bg-white mx-1 hover:text-white hover:bg-sky-600 transition duration-300">Get
+                        in-started</a>
                 </div>
             </div>
         </div>
         <div class="col-span-1 order-1">
-            <img class="m-auto" src="img/laptop-desk-computer-work-man-working-644378-pxhere.com-removebg-preview (1).png" alt="">
+            <img class="m-auto"
+                src="img/laptop-desk-computer-work-man-working-644378-pxhere.com-removebg-preview (1).png" alt="">
         </div>
     </div>
     <!-- company section end -->
@@ -53,11 +84,16 @@
             <div>
                 <p class="font-semibold text-blue-400 text-left">DIGITAL AGENCY</p>
                 <h2 class="text-4xl py-4 md:text-6xl font-extrabold">WE'RE LEADING DIGITAL BUSINESS AGENCY</h2>
-                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+                    their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
 
                 <div class="flex">
                     <button class="font-text-small px-3 py-1 bg-sky-400 rounded-full text-white mx-1">Get start</button>
-                    <a class="font-text-small px-3 py-1 text-sky-600 border-sky-500 border-2 rounded-full bg-white mx-1 hover:text-white hover:bg-sky-600 transition duration-300">Get in-started</a>
+                    <a
+                        class="font-text-small px-3 py-1 text-sky-600 border-sky-500 border-2 rounded-full bg-white mx-1 hover:text-white hover:bg-sky-600 transition duration-300">Get
+                        in-started</a>
                 </div>
             </div>
         </div>
@@ -75,19 +111,25 @@
             <div class="p-4 bg-white my-2  rounded-lg shadow-md">
                 <img src="img/shdhsjhd-1.png" alt="">
                 <p class="text-2xl font-bold my-4">Where does it come?</p>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin</p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                </p>
             </div>
             <!-- box-2 -->
             <div class="p-4 bg-white my-2 rounded-lg  shadow-md">
                 <img src="img/protection-1.png" alt="">
                 <p class="text-2xl font-bold my-4">Where does it come?</p>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin</p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                </p>
             </div>
             <!-- box-3 -->
             <div class="p-4 bg-white my-2 rounded-lg shadow-md">
                 <img src="img/scalable-1.png" alt="">
                 <p class="text-2xl font-bold my-4">Where does it come?</p>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin</p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                </p>
             </div>
         </div>
     </div>
@@ -99,5 +141,10 @@
     </div> -->
     <!-- testimonial section end -->
 
+
+
+
+    <script src="css/main.js"></script>
 </body>
+
 </html>
